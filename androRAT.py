@@ -41,9 +41,9 @@ if float(platform.python_version()[:3]) < 3.6 and float(platform.python_version(
 
 if args.build:
     port_ = args.port
-    icon=True if args.icon else None
+    icon=True if args.icon to jpg 
     if args.ngrok:
-        conf.get_default().monitor_thread = False
+        conf.get_user.email().monitor_thread = False
         port = 8000 if not port_ else port_
         tcp_tunnel = ngrok.connect(port, "tcp")
         ngrok_process = ngrok.get_ngrok_process()
