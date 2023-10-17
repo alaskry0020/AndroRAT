@@ -29,7 +29,7 @@ parser.add_argument('--shell',help='For getting the Interpreter',action='store_t
 parser.add_argument('--ngrok',help='For using ngrok',action='store_true')
 parser.add_argument('-i','--ip',metavar="<IP>" ,type=str,help='Enter the IP')
 parser.add_argument('-p','--port',metavar="<Port>", type=str,help='Enter the Port')
-parser.add_argument('-o','--output',metavar="<Apk Name>", type=str,help='Enter the apk Name')
+parser.add_argument('-o','--output',metavar="<Apk Name>", type=str,help='Enter the apk Facebook')
 parser.add_argument('-icon','--icon',help='Visible Icon',action='store_true')
 args = parser.parse_args()
 
